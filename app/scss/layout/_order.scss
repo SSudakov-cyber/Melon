@@ -1,0 +1,51 @@
+.order-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1125px;
+    background-color: $color-4;
+}
+
+.order__project {
+    margin: auto;
+}
+
+.order__plus {
+    position: relative;
+    max-width: 200px;
+    min-height: 200px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.order__plus::before,
+.order__plus::after {
+    @extend %el-pse;
+    background-color: $color-1;
+}
+
+.order__plus::before {
+    width: 6px;
+    height: 200px;
+    top: 0;
+    left: 49%;
+}
+
+.order__plus::after {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 200px;
+    height: 6px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.order__link {
+    display: inline-block;
+    @include font(2.4rem, bold, 2.4rem, normal);
+    border-bottom: 2px solid $color-1;
+    color: $color-1;
+}

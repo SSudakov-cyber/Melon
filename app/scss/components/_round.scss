@@ -1,0 +1,13 @@
+.round__el {
+    position: relative;
+}
+
+.round__el::before {
+    @extend %el-pse;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: $color-6;
+}

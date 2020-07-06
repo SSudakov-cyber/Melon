@@ -1,0 +1,120 @@
+    .slider {
+        position: relative;
+    }
+    
+    .slider__section {
+        margin-bottom: 136px;
+    }
+    
+    .main__slider {
+        position: relative;
+        max-width: 1240px;
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+    
+    .slide {
+        position: relative;
+        max-width: 1240px;
+        width: 100%;
+        min-height: 802px;
+    }
+    
+    .slide1__inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-6;
+    }
+    
+    .slide1__text-inner {
+        margin: auto;
+    }
+    
+    .slide1__text {
+        @include font(13rem, bold, 13rem, normal);
+        color: $color-1;
+    }
+    
+    .slide1__link-inner {
+        margin: 0 auto;
+        padding: 10px 10px 113px 10px;
+    }
+    
+    .try-free__link {
+        display: block;
+        border-bottom: 1px solid $color-1;
+        @include font(2.4rem, bold, 2.4rem, normal);
+        color: $color-1;
+    }
+    
+    .slide__img {
+        display: block;
+        width: 100%;
+        min-height: 802px;
+        margin: 0 50px;
+    }
+    
+    .prev__arrow,
+    .next__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    .prev__arrow {
+        left: 7%;
+    }
+    
+    .next__arrow {
+        right: 7%;
+    }
+    
+    .prev__arrow:focus,
+    .next__arrow:focus {
+        outline: none
+    }
+    
+    // slider brands
+    .slider__brands {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0 0 0;
+    }
+    
+    .slider-brands__title {
+        text-align: center;
+        padding-bottom: 50px;
+        @include font(6rem, bold, 6.1rem, normal);
+        color: $color-2;
+    }
+    
+    .slider-brands__text {
+        width: 100%;
+        margin: 0 auto;
+        @include font(2rem, 300, 2.4rem, normal);
+        text-align: center;
+    }
+    
+    .slider-brands__text:nth-child(4) {
+        letter-spacing: -0.4px;
+    }
+    
+    .brands-slider {
+        overflow: hidden;
+        max-width: 1740px;
+        margin: 0 auto;
+    }
+    
+    .brand__inner {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 100px 0 105px 0;
+    }
+    
+    .brands-slider__img {
+        margin: auto;
+    }

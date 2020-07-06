@@ -1,0 +1,32 @@
+{
+    "name": "rybovodcentr",
+    "version": "1.0.0",
+    "description": "web site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sergey-mouse-code/N__Ribka.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sergey-mouse-code/N__Ribka/issues"
+    },
+    "homepage": "https://github.com/Sergey-mouse-code/N__Ribka#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "swiper": "^5.4.5"
+    },
+    "dependencies": {
+        "@glidejs/glide": "^3.4.1",
+        "magnific-popup": "^1.1.0",
+        "slick-carousel": "^1.8.1"
+    }
+}

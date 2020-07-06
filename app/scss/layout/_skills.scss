@@ -1,0 +1,29 @@
+.skills__inner {
+    @extend %flex-between;
+}
+
+.skills__item1 {
+    padding: 140px 90px 10px 330px;
+    width: 100%;
+    background-color: $color-7;
+}
+
+.our-skills {
+    @include font(6rem, bold, 6rem, normal);
+    padding-bottom: 50px;
+}
+
+.cases__item1-text {
+    @include font(6rem, bold, 5.8rem, normal);
+    color: $color-1;
+}
+
+.cases__item1-text_mod {
+    background-color: $color-6;
+    padding: 2px 11px 10px 0;
+}
+
+.cases__item1-text_mod1 {
+    position: relative;
+    left: -10px;
+}

@@ -1,0 +1,104 @@
+    header {
+        min-height: 1082px;
+        @extend %bg-image;
+        background-image: url(../asssets/images/Main__ru/header/header__bg.png);
+    }
+    
+    .header__top,
+    .header__middle,
+    .header__bottom {
+        @extend %flex-between;
+    }
+    
+    .header__top {
+        padding: 92px 23.8px 330px 90px;
+    }
+    
+    .header__middle {
+        padding: 10px 27px 245px 90px;
+    }
+    
+    .header__bottom {
+        position: relative;
+        padding: 22px 23.8px 10px 90px;
+    }
+    
+    .header__bottom::after {
+        @extend %el-pse;
+        max-width: 52px;
+        width: 100%;
+        height: 124px;
+        right: 0;
+        top: 33px;
+        background-color: $color-6;
+    }
+    
+    .creatvity {
+        @include font(2.4rem, bold, 2.4rem, normal);
+    }
+    
+    .creativity__text {
+        display: inline-block;
+        padding: 13.5px 0 13.5px 20px;
+        color: $color-1;
+        background-color: $color-6;
+    }
+    
+    .creativity__text_mod {
+        color: $color-2;
+    }
+    
+    .scroll {
+        position: relative;
+    }
+    
+    .scroll__wrap {
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+    }
+    
+    .scroll__text {
+        display: inline-block;
+        padding: 0 0 0 33px;
+        @include font(1.6rem, bold, 1.6rem, normal);
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        color: $color-1;
+    }
+    
+    .social__list:first-child {
+        margin-bottom: 14px;
+    }
+    
+    .social__list:nth-child(2) {
+        margin-bottom: 11px;
+    }
+    
+    .social__list:nth-child(3) {
+        margin-left: 4px;
+    }
+    
+    .branding-agency__text {
+        @include font(8.8rem, bold, 8.8rem, normal);
+        letter-spacing: -1.65px;
+        color: $color-1;
+    }
+    
+    .activity {
+        text-align: right;
+    }
+    
+    .activity__inner {
+        padding: 45px 99.8px 0 10px;
+    }
+    
+    .activity__text {
+        margin-bottom: 7px;
+        @include font(1.6rem, bold, 1.6rem, normal);
+        letter-spacing: 3.2px;
+        text-transform: uppercase;
+        color: $color-1;
+    }

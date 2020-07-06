@@ -1,0 +1,22 @@
+.interview__inner {
+    padding: 104px 10px 90px 0;
+    max-width: 1602px;
+    @extend %flex-between;
+}
+
+.rectangle {
+    max-width: 252px;
+    width: 100%;
+    min-height: 532px;
+    background-color: $color-6;
+}
+
+.interview__title {
+    @include font(6rem, bold, 6rem, normal);
+}
+
+.interview__text {
+    @include font(2rem, 300, 2.4rem, normal);
+    padding-right: 45px;
+    border-right: 6px solid $color-2;
+}

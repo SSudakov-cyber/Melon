@@ -1,0 +1,15 @@
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+%el-pse {
+    position: absolute;
+    content: '';
+}

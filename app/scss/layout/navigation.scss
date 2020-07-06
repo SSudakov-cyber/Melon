@@ -1,0 +1,167 @@
+.lang__link {
+    @include font(1.6rem, bold, 1.4rem, normal);
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    transition: .35s ease-out;
+}
+
+.lang__list:nth-child(-n+2) {
+    padding-bottom: 9px;
+}
+
+.lang__link:hover {
+    color: $color-6;
+}
+
+
+/*navigation*/
+
+.navigation__inner {
+    @extend %flex-between;
+    padding: 35px 94px 47px 90px;
+}
+
+.logotype {
+    max-width: 215px;
+}
+
+.logo__link {
+    display: inline-block;
+}
+
+.logo__text {
+    padding-top: 10px;
+    @include font(1.041rem, 400, 1.041rem, normal);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu {
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    @include font(1.4rem, bold, 1.4rem, normal);
+    letter-spacing: 2.8px;
+}
+
+.menu__link_margin {
+    margin: 0 70px 0 82px;
+}
+
+.phone {
+    align-self: center;
+}
+
+.phone__link {
+    position: relative;
+    @include font(2rem, bold, 2rem, normal);
+    letter-spacing: 4px;
+    padding-left: 39px;
+}
+
+.phone__link::before {
+    @extend %el-pse;
+    width: 22px;
+    height: 22px;
+    top: 4px;
+    left: 5px;
+    background-image: url(../asssets/images/Main__ru/navigation/phone.png);
+    @extend %bg-image;
+}
+
+
+/*services links*/
+
+.services__item {
+    margin-bottom: 13px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
+}
+
+.services__inner {
+    min-height: 355px;
+}
+
+.services__link_hidden {
+    display: none;
+}
+
+.services__link {
+    display: inline-block;
+    @include font(2rem, 300, 2rem, normal);
+    color: $color-4;
+    padding-left: 34px;
+}
+
+.services__link_active {
+    position: relative;
+    @include font(2.4rem, bold, 2.4rem, normal);
+    color: $color-2;
+}
+
+.services__link_active::before {
+    @extend %el-pse;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: $color-6;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.services__link_active::after {
+    position: absolute;
+    content: ':';
+    top: 0;
+    right: -8px;
+    color: $color-2;
+}
+
+.services__link-KP {
+    display: block;
+    margin-bottom: 37px;
+    @include font(6rem, bold, 6rem, normal);
+    text-align: right;
+}
+
+.services__text {
+    display: none;
+    @include font(2rem, 300, 2.4rem, normal);
+    text-align: justify;
+    padding: 8px 26px 0 10px;
+    border-right: 6px solid $color-4;
+    color: $color-4;
+}
+
+.services__text2 {
+    padding: 8px 26px 0 10px;
+    @include font(2rem, 300, 2.4rem, normal);
+    text-align: justify;
+    text-align-last: right;
+    border-right: 6px solid $color-4;
+    color: $color-4;
+}
+
+.services__text_active {
+    display: block;
+}
+
+.main-content__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__text-inner {
+    align-self: flex-end;
+    position: relative;
+    flex-basis: 56%;
+}
