@@ -1,5 +1,5 @@
 {
-    "name": "rybovodcentr",
+    "name": "Melon",
     "version": "1.0.0",
     "description": "web site",
     "main": "index.js",
@@ -13,9 +13,9 @@
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Sergey-mouse-code/N__Ribka/issues"
+        "url": ""
     },
-    "homepage": "https://github.com/Sergey-mouse-code/N__Ribka#readme",
+    "homepage": "",
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^7.0.1",
